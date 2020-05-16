@@ -1,0 +1,11 @@
+language: ruby
+
+rvm:
+  - 2.4.5
+  - 2.5.4
+  - 2.6.1
+
+script:
+- bundle install
+- echo "skipping tests"
+#- bundle exec rake

@@ -1,0 +1,17 @@
+require "rest-client"
+require "json"
+require "json-schema"
+
+require "salesfly/version"
+require "salesfly/errors/api_error"
+require "salesfly/errors/api_connection_error"
+require "salesfly/errors/api_timeout_error"
+require "salesfly/errors/response_error"
+require "salesfly/rest"
+require "salesfly/multipart"
+require "salesfly/usage_api"
+require "salesfly/geoip_api"
+require "salesfly/mail_api"
+require "salesfly/pdf_api"
+require "salesfly/client"
+
