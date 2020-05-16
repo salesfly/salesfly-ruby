@@ -7,4 +7,5 @@ build:
 	gem build salesfly.gemspec
 
 deploy:
+	#NOTE: apikey must be in ~/.gem/credentials
 	gem push salesfly-*.gem	
