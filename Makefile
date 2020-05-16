@@ -2,9 +2,9 @@
 test:
 	rake
 
-release:
+build:
 	@rm -rf salesfly-*.gem
 	gem build salesfly.gemspec
 
-upload:
+deploy:
 	gem push salesfly-*.gem	
