@@ -9,7 +9,7 @@ module Salesfly
       headers = { 
         "Accept" => "application/pdf"
       }
-      return @rest_client.post("/v1/pdf/create", options, headers)
+      return @rest_client.post("/v1/pdf/create", options.to_json, headers)
     end  
 
   end

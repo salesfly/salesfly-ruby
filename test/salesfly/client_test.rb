@@ -26,7 +26,7 @@ module SalesflyTest
     def test_create_pdf
       options = {
 		    "document_url" => "https://example.com"
-	    }.to_json
+	    }
       buffer = client.pdf.create(options)
       assert buffer != nil
       File.open("/tmp/test-ruby.pdf", "w") do |file|
