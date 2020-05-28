@@ -4,11 +4,11 @@
 
 <!--[![codecov](https://codecov.io/gh/salesfly/salesfly-ruby/branch/master/graph/badge.svg)](https://codecov.io/gh/salesfly/salesfly-ruby)-->
 
-Ruby client for [Salesfly API](https://salesfly.com)&reg;
+Ruby client for [Salesfly API](https://salesfly.com)&reg;. This client works with [Salesfly e-commerce](https://salesfly.com) and [SalesflyPDF](https://salesflypdf.com).
 
 ## Documentation
 
-See the [Ruby API docs](https://docs.salesfly.com/ruby/).
+See the [Ruby API docs](https://developers.salesfly.com/ruby/).
 
 ## Installation
 
